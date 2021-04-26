@@ -1,0 +1,4 @@
+const submitbutton=document.getElementById("submit")
+const dat=axios.get(
+    "https://crudcrud.com/api/9182356c12294c46ab03d0376b4bb069/registerUser/6085726613120c03e81c9507"
+    ).then(data => console.log(data))
