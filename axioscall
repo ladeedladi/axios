@@ -1,0 +1,13 @@
+const submitbutton=document.getElementById("submit")
+const dat=axios.get(
+    "https://crudcrud.com/api/9182356c12294c46ab03d0376b4bb069/registerUser"
+    ).then(data => console.log(data))
+
+    const dat=axios.post(
+        "https://crudcrud.com/api/9182356c12294c46ab03d0376b4bb069/registerUser";
+        ["name":"ladi","mailid":"ladi@gamil.com"]
+        ).then(data => console.log(data))
+        const dat=axios.get(
+            "https://crudcrud.com/api/9182356c12294c46ab03d0376b4bb069/registerUser"
+            ).then(data => console.log(data))
+            
